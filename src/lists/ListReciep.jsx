@@ -28,7 +28,8 @@ const ListReciep = () => {
 const DeleteHandler = async(id)=>{
   console.log(id);
   confirm('What are your Delete this reciep?')
-  window.location.reload();
+  // page Refresh
+  // window.location.reload();
   await DeleteApi(id);
   return DeleteApi(id);
 }
